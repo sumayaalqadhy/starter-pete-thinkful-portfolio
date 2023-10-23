@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
-  background-color: #eae2b7;
+  background-color:  #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
@@ -14,11 +14,15 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 /* Header */
 header {
   text-align: center;
+  display: flex;
+  align-items: center; 
 }
 
 /* Containers */
@@ -76,3 +80,33 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.container {
+  display: flex;
+  justify-content: center; /* Horizontally align items */
+}
+
+/* .item {
+  flex: 1;
+  margin: 10px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column; 
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally within the container */
+  /* Add any other section container styles here 
+}
+
+.centered {
+  text-align: center; /* Center-align text within this div 
+}
+
+p.left-aligned {
+  text-align: left; 
+} */ 
