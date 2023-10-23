@@ -18,6 +18,11 @@ h3 {
   justify-content: center; */
 }
 
+/* Paragraphs */
+p {
+  font-size: 14px;
+}
+
 /* Header */
 header {
   text-align: center;
@@ -83,10 +88,10 @@ hr {
 
 .container {
   display: flex;
-  justify-content: center; /* Horizontally align items */
+  justify-content: center; 
 }
 
-/* .item {
+.item {
   flex: 1;
   margin: 10px;
 }
@@ -94,15 +99,17 @@ hr {
 .group {
   display: flex;
   flex-direction: column; 
+  flex: 1;
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center items horizontally within the container */
-  /* Add any other section container styles here 
+  align-items: center; 
+  justify-content: center;
 }
 
+/*
 .centered {
   text-align: center; /* Center-align text within this div 
 }
@@ -110,3 +117,22 @@ hr {
 p.left-aligned {
   text-align: left; 
 } */ 
+
+article.row {
+  display: flex;
+  flex-direction: row;
+} 
+
+
+.center {
+  text-align: center; 
+}
+.contact {
+  text-align: left;
+}
+/*.row {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 10px;
+} */
