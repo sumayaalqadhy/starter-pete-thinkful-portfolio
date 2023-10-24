@@ -14,8 +14,6 @@ h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
-  /* display: flex;
-  justify-content: center; */
 }
 
 /* Paragraphs */
@@ -86,43 +84,17 @@ hr {
   border: 1px solid black;
 }
 
+/* classes added for assignment */
+
 .container {
   display: flex;
   justify-content: center; 
 }
 
-.item {
-  flex: 1;
-  margin: 10px;
-}
-
-.group {
-  display: flex;
-  flex-direction: column; 
-  flex: 1;
-}
-
-.section {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  justify-content: center;
-}
-
-/*
-.centered {
-  text-align: center; /* Center-align text within this div 
-}
-
-p.left-aligned {
-  text-align: left; 
-} */ 
-
 article.row {
   display: flex;
   flex-direction: row;
 } 
-
 
 .center {
   text-align: center; 
@@ -130,9 +102,21 @@ article.row {
 .contact {
   text-align: left;
 }
-/*.row {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  margin: 10px;
-} */
+
+* {
+  box-sizing: border-box;
+  }
+
+  .about-content {
+    text-align: left;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .greetings {
+    margin-left: -75px;
+  }
